@@ -1,16 +1,56 @@
-# React + Vite
+# PhishGuard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PhishGuard is a phishing detection web application designed to analyze URLs and identify potentially suspicious links.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* URL scanning
+* Phishing risk detection
+* Risk classification
+* Scan history
+* User-friendly interface
+* REST API integration
+* Database storage
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* HTML
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Python
+* Django
+* Django REST Framework
+
+### Database
+
+* PostgreSQL
+
+## Project Structure
+
+```text id="f4k2h7"
+PhishGuard/
+├── frontend/
+└── backend/
+```
+
+## Main Modules
+
+* URL Scanner
+* Phishing Detection
+* Scan History
+* REST API
+* Database Management
+
+## Purpose
+
+The project was developed as a cybersecurity-focused web application to demonstrate phishing detection concepts and full-stack development skills.
+
+## Author
+
+Alan K Alexander
